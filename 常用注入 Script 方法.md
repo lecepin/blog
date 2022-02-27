@@ -42,12 +42,12 @@ ls("dayjs", () => {
 使用其他源：
 
 ```javascript
-ls("react", () => {
+ls("react/umd/react.production.min.js", () => {
 	console.log('load:', React)
 }, 'https://unpkg.zhimg.com/');
 
-ls("react", () => {
-	console.log('load:', React)
+ls("xstate@4/dist/xstate.js", () => {
+	console.log('load:', XState)
 }, 'https://cdn.jsdelivr.net/npm/');
 ```
 
