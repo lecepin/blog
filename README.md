@@ -1,5 +1,6 @@
 # blog
 
+- [实现图片本地化 ServiceWorker + IndexedDB](https://github.com/lecepin/blog/blob/main/%E5%AE%9E%E7%8E%B0%E5%9B%BE%E7%89%87%E6%9C%AC%E5%9C%B0%E5%8C%96%20ServiceWorker%20%2B%20IndexedDB.md) - 2022.3.16
 - [解决写文档对于图片边框的强迫症](https://github.com/lecepin/blog/blob/main/%E8%A7%A3%E5%86%B3%E5%86%99%E6%96%87%E6%A1%A3%E5%AF%B9%E4%BA%8E%E5%9B%BE%E7%89%87%E8%BE%B9%E6%A1%86%E7%9A%84%E5%BC%BA%E8%BF%AB%E7%97%87.md) - 2022.3.9
 - [create-react-app 使用代理做 mock](https://github.com/lecepin/blog/blob/main/create-react-app%20%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86%E5%81%9A%20mock.md) - 2022.3.4
 - [多年前的树莓派 B+ 重新工作](https://github.com/lecepin/blog/blob/main/%E5%A4%9A%E5%B9%B4%E5%89%8D%E7%9A%84%E6%A0%91%E8%8E%93%E6%B4%BE%20B%2B%20%E9%87%8D%E6%96%B0%E5%B7%A5%E4%BD%9C.md) - 2022.2.8
