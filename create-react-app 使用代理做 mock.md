@@ -22,7 +22,7 @@ create-react-app 默认提供了两种方式，关联到 webpack-dev-server 中�
 代理流程在 react-script 中内置写好了，流程如下：
 
 ```mermaid
-graph LR
+graph 
 A((请求开始)) --> B{Get请求?}
 B --No--> C
 B --Yes--> D{请求 Public 目录文件?}
@@ -66,6 +66,8 @@ module.exports = function (app) {
 ```
 
 上例会拦截所有 `/api` 的请求。此模式可以拦截一切请求，详情参考：[文档](https://github.com/chimurai/http-proxy-middleware/tree/v0.21.0#readme)。
+
+> 这个 `app` 就是 express 的实例，可以在 `use` 中添加任何中间件，[详情参考](https://expressjs.com/zh-cn/guide/using-middleware.html)。
 
 > 无需安装 `http-proxy-middleware`，已经内置在 react-script 中。
 > 注意 `http-proxy-middleware` 的版本，上例中的版本是 0.x，新版本改动很大。
