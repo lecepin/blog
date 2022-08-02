@@ -43,7 +43,7 @@ Platform | Value                               | Example                      |
 | macOS    | `$HOME`/Library/Caches              | /Users/Alice/Library/Caches  |
 | Windows  | `{FOLDERID_LocalAppData}`           | C:\Users\Alice\AppData\Local |
 
-所以直接把 Wix 下载完后，在 `C:\Users\xxxxxxxx\AppData\Loca` 中，创建 `tauri/WixTools` 文件夹，然后把内容解决到里面就可以了。
+所以直接把 Wix 下载完后，在 `C:\Users\xxxxxxxx\AppData\Loca` 中，创建 `tauri/WixTools` 文件夹，然后把内容解压到里面就可以了。
 
 正常构建完成：
 
