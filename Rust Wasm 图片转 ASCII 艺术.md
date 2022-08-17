@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/11046969/185097798-32e82b9f-9969-4fa5-915c-98e552198446.png)
+
+
 有一些隐藏在代码中的 ASCII 有意思的图片，如：
 
 ```js
