@@ -58,7 +58,8 @@
 
 效果如下图所示 ([演示地址](https://lecepin.github.io/rust-wasm-image-ascii/gray.html))：
 
-![image](https://user-images.githubusercontent.com/11046969/185090833-cd71e959-2ac1-4abb-ad0e-c140b07349f5.png)
+![image](https://user-images.githubusercontent.com/11046969/185295538-5f9b4f2f-923f-4290-8223-8efdde6ac7cb.png)
+
 
 这里在 Rust 中用的是加权平均值的第一种方式：
 
