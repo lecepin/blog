@@ -23,7 +23,7 @@ export default hopeTheme({
   navbar: navbar,
 
   // sidebar
-  sidebar: "heading",
+  sidebar: false,
 
   footer: "默认页脚",
 
