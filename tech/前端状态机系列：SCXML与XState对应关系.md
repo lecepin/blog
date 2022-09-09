@@ -1,6 +1,6 @@
 ---
 title: 前端状态机系列：SCXML与XState对应关系
-date: 2022-1-14
+date: 2022-01-14
 tag:
   - 状态机
 ---
