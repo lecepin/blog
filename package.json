@@ -7,7 +7,7 @@
     "docs:build": "vuepress build .",
     "docs:clean-dev": "vuepress dev . --clean-cache",
     "docs:dev": "vuepress dev .",
-    "pages": "npm run docs:clean-dev && npm run docs:build && gh-pages --dist .vuepress/dist --dest . --repo https://github.com/lecepin/blog"
+    "pages": "gh-pages --dist .vuepress/dist --repo https://github.com/lecepin/blog --branch pages -t"
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.51",
