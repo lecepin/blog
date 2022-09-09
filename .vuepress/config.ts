@@ -3,8 +3,8 @@ import theme from "./theme.js";
 
 export default defineUserConfig({
   lang: "zh-CN",
-  title: "主题演示",
-  description: "vuepress-theme-hope 的演示",
+  title: "博客",
+  description: " ",
 
   base: "/",
 
