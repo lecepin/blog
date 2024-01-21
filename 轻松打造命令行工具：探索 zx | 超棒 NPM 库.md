@@ -91,7 +91,7 @@ console.log(`Current git branch is ${branch}`);
 |               | `yaml`         | 解析 YAML 内容                                             | ``let data = yaml.parse('key: value');``                       |
 |               | `argv`         | 包含命令行参数的数组                                      | ``console.log('Arguments:', argv);``                           |
 
-                          |
+                     
 
 这个表格提供了 `zx` 命令的一个简单用法概览，让你可以更快地理解如何在脚本中利用这些命令。记得实际使用时检查每个命令的详细文档，以了解更多高级用法和注意事项。
 
