@@ -1,5 +1,4 @@
-![image](https://github.com/lecepin/blog/assets/11046969/84e35dca-c42f-4531-a68e-f2a28f033140)
-
+![](/images/1705842175_6b0958dd000baecd.png)
 
 ## 1. zx 是什么
 
@@ -56,42 +55,46 @@ console.log(`Current git branch is ${branch}`);
 
 ## 3. zx 命令概览
 
-我为你扩充了表格，增加了示例/用法列，这样你可以更直观地理解每个 `zx` 命令的使用方法：
+Markdown中，如果你想要显示反引号 (`) 作为代码或文本的一部分，你需要对反引号进行转义。为了在Markdown代码块中显示单个或一对反引号，你可以使用多个反引号来创建代码块，并在内部的代码块中包含单个反引号。或者，你也可以在反引号前面加上反斜杠 (\) 进行转义。
 
-| 分类          | 命令/属性    | 用途描述                                             | 示例/用法                                                     |
-| ------------- | ------------ | ---------------------------------------------------- | ------------------------------------------------------------- |
-| 执行控制      | `$`          | 执行命令并返回 `stdout`、`stderr` 和 `exitCode`      | `let output = await $`ls`;`                                   |
-|               | `$.spawn`    | 创建一个子进程，类似 `child_process.spawn`           | `await $.spawn('ls', ['-l']);`                                |
-|               | `$.shell`    | 设置或获取用于执行命令的 shell                       | `$.shell = '/bin/bash';`                                      |
-|               | `nothrow()`  | 执行命令，即使出错也不抛出异常                       | `await $`rm -rf /`.nothrow();`                                |
-|               | `quiet()`    | 执行命令不打印输出                                   | `await $`rm file.txt`.quiet();`                               |
-|               | `timeout()`  | 设置命令执行的超时时间                               | `await $`sleep 5`.timeout(1000);`                             |
-|               | `retry()`    | 重试执行命令直到成功或达到重试次数                   | `await retry(() => $`ping -c 1 google.com`);`                 |
-| 流程控制      | `pipe()`     | 管道连接命令，将上一个命令的输出作为下一个命令的输入 | `let result = await $`echo hello`.pipe($`grep h`);`           |
-|               | `kill()`     | 发送信号以终止进程                                   | `let p = $`sleep 1000`; setTimeout(() => p.kill(), 100);`     |
-|               | `stdin()`    | 为下一条执行的命令提供 stdin 数据                    | `await $`cat`.stdin('Hello, zx!');`                           |
-|               | `cd()`       | 更改当前工作目录                                     | `await cd('/path/to/dir');`                                   |
-|               | `within()`   | 在指定目录下执行命令                                 | `await within('/path/to/dir', async () => { await $`ls`; });` |
-|               | `spinner()`  | 显示旋转器（spinner）并执行命令                      | `await spinner('Loading', $`sleep 5`);`                       |
-| 输入/输出控制 | `stdio()`    | 自定义命令的 stdio 配置                              | `await $`node script.js`.stdio('inherit');`                   |
-|               | `$.log`      | 控制是否记录执行命令的日志                           | `$.log = true;`                                               |
-|               | `$.verbose`  | 设置详细模式以打印额外信息                           | `$.verbose = true;`                                           |
-|               | `$.prefix`   | 设置命令前缀                                         | `$.prefix = 'SUDO_ASKPASS=askpass sudo -A';`                  |
-|               | `$.quote`    | 函数，用于正确转义命令参数                           | `let cmd = `echo ${$.quote('hello world')}`;`                 |
-|               | `echo()`     | 打印文本到控制台                                     | `echo('Hello, world!');`                                      |
-| 环境控制      | `$.env`      | 设置或获取环境变量                                   | `$.env.PATH += ':/custom/path';`                              |
-|               | `$.cwd`      | 获取当前工作目录路径                                 | `console.log('Current directory:', $.cwd);`                   |
-| 文件和系统    | `fs`         | Node.js 的文件系统模块，用于操作文件系统             | `fs.writeFileSync('file.txt', 'Hello, zx!');`                 |
-|               | `os`         | Node.js 的操作系统模块，提供关于系统的信息和工具     | `console.log('Platform:', os.platform());`                    |
-|               | `path`       | Node.js 的路径模块，用于操作文件系统路径             | `let fullPath = path.resolve('file.txt');`                    |
-|               | `glob()`     | 使用 glob 模式匹配文件路径                           | `let files = await glob('**/*.js');`                          |
-|               | `which()`    | 在系统的 PATH 中查找给定命令的路径                   | `let npmPath = await which('npm');`                           |
-| 其他工具      | `fetch()`    | 发起网络请求                                         | `let response = await fetch('https://api.github.com');`       |
-|               | `question()` | 提出一个问题并等待用户输入                           | `let name = await question('What is your name? ');`           |
-|               | `sleep()`    | 暂停执行指定的时间                                   | `await sleep(1000);`                                          |
-|               | `chalk`      | 用于在控制台中输出彩色文本                           | `console.log(chalk.blue('Hello, world!'));`                   |
-|               | `yaml`       | 解析 YAML 内容                                       | `let data = yaml.parse('key: value');`                        |
-|               | `argv`       | 包含命令行参数的数组                                 | `console.log('Arguments:', argv);`                            |
+我会修正表格中的最后一列，确保特殊字符正确显示：
+
+| 分类          | 命令/属性      | 用途描述                                                 | 示例/用法                                                      |
+| ------------- | -------------- | -------------------------------------------------------- | -------------------------------------------------------------- |
+| 执行控制      | `$`            | 执行命令并返回 `stdout`、`stderr` 和 `exitCode`          | ``let output = await $`ls`;``                                   |
+|               | `$.spawn`      | 创建一个子进程，类似 `child_process.spawn`               | ``await $.spawn('ls', ['-l']);``                               |
+|               | `$.shell`      | 设置或获取用于执行命令的 shell                           | ``$.shell = '/bin/bash';``                                     |
+|               | `nothrow()`    | 执行命令，即使出错也不抛出异常                            | ``await $`rm -rf /`.nothrow();``                               |
+|               | `quiet()`      | 执行命令不打印输出                                       | ``await $`rm file.txt`.quiet();``                              |
+|               | `timeout()`    | 设置命令执行的超时时间                                    | ``await $`sleep 5`.timeout(1000);``                            |
+|               | `retry()`      | 重试执行命令直到成功或达到重试次数                        | ``await retry(() => $`ping -c 1 google.com`);``                |
+| 流程控制      | `pipe()`       | 管道连接命令，将上一个命令的输出作为下一个命令的输入      | ``let result = await $`echo hello`.pipe($`grep h`);``          |
+|               | `kill()`       | 发送信号以终止进程                                        | ``let p = $`sleep 1000`; setTimeout(() => p.kill(), 100);``    |
+|               | `stdin()`      | 为下一条执行的命令提供 stdin 数据                         | ``await $`cat`.stdin('Hello, zx!');``                          |
+|               | `cd()`         | 更改当前工作目录                                          | ``await cd('/path/to/dir');``                                  |
+|               | `within()`     | 在指定目录下执行命令                                      | ``await within('/path/to/dir', async () => { await $`ls`; });``|
+|               | `spinner()`    | 显示旋转器（spinner）并执行命令                           | ``await spinner('Loading', $`sleep 5`);``                      |
+| 输入/输出控制 | `stdio()`      | 自定义命令的 stdio 配置                                    | ``await $`node script.js`.stdio('inherit');``                  |
+|               | `$.log`        | 控制是否记录执行命令的日志                                | ``$.log = true;``                                              |
+|               | `$.verbose`    | 设置详细模式以打印额外信息                                | ``$.verbose = true;``                                          |
+|               | `$.prefix`     | 设置命令前缀                                               | ``$.prefix = 'SUDO_ASKPASS=askpass sudo -A';``                 |
+|               | `$.quote`      | 函数，用于正确转义命令参数                                | ``let cmd = `echo ${$.quote('hello world')}`;``                |
+|               | `echo()`       | 打印文本到控制台                                          | ``echo('Hello, world!');``                                     |
+| 环境控制      | `$.env`        | 设置或获取环境变量                                         | ``$.env.PATH += ':/custom/path';``                             |
+|               | `$.cwd`        | 获取当前工作目录路径                                      | ``console.log('Current directory:', $.cwd);``                  |
+| 文件和系统    | `fs`           | Node.js 的文件系统模块，用于操作文件系统                   | ``fs.writeFileSync('file.txt', 'Hello, zx!');``                |
+|               | `os`           | Node.js 的操作系统模块，提供关于系统的信息和工具          | ``console.log('Platform:', os.platform());``                   |
+|               | `path`         | Node.js 的路径模块，用于操作文件系统路径                   | ``let fullPath = path.resolve('file.txt');``                   |
+|               | `glob()`       | 使用 glob 模式匹配文件路径                                 | ``let files = await glob('**/*.js');``                         |
+|               | `which()`      | 在系统的 PATH 中查找给定命令的路径                         | ``let npmPath = await which('npm');``                          |
+| 其他工具      | `fetch()`      | 发起网络请求                                              | ``let response = await fetch('https://api.github.com');``      |
+|               | `question()`   | 提出一个问题并等待用户输入                                | ``let name = await question('What is your name? ');``          |
+|               | `sleep()`      | 暂停执行指定的时间                                        | ``await sleep(1000);``                                         |
+|               | `chalk`        | 用于在控制台中输出彩色文本                                 | ``console.log(chalk.blue('Hello, world!'));``                  |
+|               | `yaml`         | 解析 YAML 内容                                             | ``let data = yaml.parse('key: value');``                       |
+|               | `argv`         | 包含命令行参数的数组                                      | ``console.log('Arguments:', argv);``                           |
+
+                          |
 
 这个表格提供了 `zx` 命令的一个简单用法概览，让你可以更快地理解如何在脚本中利用这些命令。记得实际使用时检查每个命令的详细文档，以了解更多高级用法和注意事项。
 
