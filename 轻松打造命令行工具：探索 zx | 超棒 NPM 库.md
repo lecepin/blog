@@ -1,4 +1,5 @@
-![](/images/1705842175_6b0958dd000baecd.png)
+![image](https://github.com/lecepin/blog/assets/11046969/8b6dce34-5b6c-4d2e-b358-16cf31dff487)
+
 
 ## 1. zx 是什么
 
