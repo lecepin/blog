@@ -2,6 +2,7 @@
 
 <img src="https://github.com/lecepin/blog/assets/11046969/7767859f-14b3-4e32-9d34-d21e7eae841e" width="50%" />
 
+- [告别后端依赖：用 MSW 实现独立的前端应用 Mock](告别后端依赖：用%20MSW%20实现独立的前端应用%20Mock.md) - 2024.2.14
 - [Promise 常见题目](Promise%20常见题目.md) - 2024.2.13
 - [依赖注入的艺术：编写可扩展 JavaScript 代码的秘密](依赖注入的艺术：编写可扩展%20JavaScript%20代码的秘密.md) - 2024.2.12
 - [重构利器：如何用 Immer 优雅地管理应用状态](重构利器：如何用%20Immer%20优雅地管理应用状态.md) - 2024.2.11
