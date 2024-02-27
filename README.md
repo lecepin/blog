@@ -2,6 +2,7 @@
 
 <img src="https://github.com/lecepin/blog/assets/11046969/7767859f-14b3-4e32-9d34-d21e7eae841e" width="50%" />
 
+- [提升 Node.js 服务端性能：Fastify 框架](提升%20Node.js%20服务端性能：Fastify%20框架.md) - 2024.2.27
 - [使用PM2实现高效的应用监控与管理](使用PM2实现高效的应用监控与管理.md) - 2024.2.25
 - [实时反馈的力量：如何用nodemon改善你的编码实践](实时反馈的力量：如何用nodemon改善你的编码实践.md) - 2024.2.22
 - [常见Web安全](常见Web安全.md) - 2024.2.22
