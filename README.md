@@ -2,6 +2,7 @@
 
 <img src="https://github.com/lecepin/blog/assets/11046969/7767859f-14b3-4e32-9d34-d21e7eae841e" width="50%" />
 
+- [从 Lerna 到现代化：原生 Workspaces 和 Changesets 的高效协作](从%20Lerna%20到现代化：原生%20Workspaces%20和%20Changesets%20的高效协作.md) - 2024.6.3
 - [vue vite 环境非构建包编译 React 报错定位](vue%20vite%20环境非构建包编译%20React%20报错定位.md) - 2024.5.13
 - [内源 npm 无法同步官方 npm 解法](内源%20npm%20无法同步官方%20npm%20解法.md) - 2024.3.29
 - [Git 内幕探索：从底层文件系统到历史编辑的全面指南](Git%20内幕探索：从底层文件系统到历史编辑的全面指南.md) - 2024.3.7
