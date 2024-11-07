@@ -2,6 +2,7 @@
 
 <img src="https://github.com/lecepin/blog/assets/11046969/7767859f-14b3-4e32-9d34-d21e7eae841e" width="50%" />
 
+- [Plop.js：一键生成代码模板，提升开发效率的利器](Plop.js：一键生成代码模板，提升开发效率的利器.md) - 2024.11.7
 - [Handlebars.js：让模板编写更快、更优雅的引擎](Handlebars.js：让模板编写更快、更优雅的引擎.md) - 2024.11.6
 - [前端技术月刊-2024.11](%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E6%9C%88%E5%88%8A-2024.11.md) - 2024.11.4
 - [从 Lerna 到现代化：原生 Workspaces 和 Changesets 的高效协作](从%20Lerna%20到现代化：原生%20Workspaces%20和%20Changesets%20的高效协作.md) - 2024.6.3
