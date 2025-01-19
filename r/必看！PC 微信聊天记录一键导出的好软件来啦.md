@@ -1,4 +1,5 @@
-![](https://editor.leping.fun/images/1737283384_236788b1cd54d528.png)
+![image](https://github.com/user-attachments/assets/1959394d-12e8-4114-87a7-c8f9661eb756)
+
 在如今的数字化时代，我们的生活越来越依赖于各种社交软件，微信更是成为了大家日常生活中不可或缺的一部分。微信里保存着我们大量的聊天记录，这些记录可能包含着重要的信息、珍贵的回忆，或者是一些有趣的对话。然而，有时候我们可能需要将这些聊天记录导出保存，以备不时之需。今天，就给大家分享一款非常实用的 PC 微信聊天记录数据导出工具——wechatDataBackup。
 
 ## 软件
@@ -23,11 +24,12 @@ wechatDataBackup 是一款基于 wails 开发，搭配 React 前端的软件。�
 
 ## 使用
 
-![](https://editor.leping.fun/images/1737283050_0c02ac5220e22323.png)
+![image](https://github.com/user-attachments/assets/595ef1e0-57d3-4d64-8d49-bd8cafbf0db1)
 
-![](https://editor.leping.fun/images/1737283063_9bbc77f48ce386ba.png)
+![image](https://github.com/user-attachments/assets/104957ad-40b8-4740-8b0c-55037b77e9bc)
 
-![](https://editor.leping.fun/images/1737283071_3e9a07768d62b9a9.png)
+![image](https://github.com/user-attachments/assets/8941d6cd-953f-41f5-8813-9c345439f13c)
+
 
 ## 常见问题解答
 
