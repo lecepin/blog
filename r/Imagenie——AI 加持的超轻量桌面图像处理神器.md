@@ -76,6 +76,6 @@ xattr -cr /Applications/XXX.app
 
 ## 下载
 
-111
+https://github.com/zhongweili/imagenie
 
 > 关注我们的公众号，更多软件尖货持续为你揭秘。
