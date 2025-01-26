@@ -2,6 +2,7 @@
 
 <img src="https://github.com/lecepin/blog/assets/11046969/7767859f-14b3-4e32-9d34-d21e7eae841e" width="50%" />
 
+- [SuperDiff：提供详细差异信息的 JS diff 工具](SuperDiff：提供详细差异信息的%20JS%20diff%20工具.md) - 2025.1.26
 - [😍 Imagenie——AI%20加持的超轻量桌面图像处理神器.md](r/Imagenie——AI%20加持的超轻量桌面图像处理神器.md) - 2025.1.22
 - [😍 必看！wechat-article-exporter：轻松批量下载公众号文章](r/必看！wechat-article-exporter：轻松批量下载公众号文章.md) - 2025.1.21
 - [😍 震撼！这款改名软件功能太强大了](r/震撼！这款改名软件功能太强大了.md) - 2025.1.20
