@@ -2,6 +2,7 @@
 
 <img src="https://github.com/lecepin/blog/assets/11046969/7767859f-14b3-4e32-9d34-d21e7eae841e" width="50%" />
 
+- [前端技术月刊-2025.3](前端技术月刊-2025.3.md) - 2025.3.3
 - [前端技术月刊-2025.2](前端技术月刊-2025.2.md) - 2025.2.10
 - [SuperDiff：提供详细差异信息的 JS diff 工具](SuperDiff：提供详细差异信息的%20JS%20diff%20工具.md) - 2025.1.26
 - [😍 Imagenie——AI%20加持的超轻量桌面图像处理神器.md](r/Imagenie——AI%20加持的超轻量桌面图像处理神器.md) - 2025.1.22
