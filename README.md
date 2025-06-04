@@ -2,6 +2,7 @@
 
 <img src="https://github.com/lecepin/blog/assets/11046969/7767859f-14b3-4e32-9d34-d21e7eae841e" width="50%" />
 
+- [AI Coding 资讯 2025-06-04.md](AI%20Coding%20资讯%202025-06-04.md) - 2025.6.4
 - [前端技术月刊-2025.3](前端技术月刊-2025.3.md) - 2025.3.3
 - [前端技术月刊-2025.2](前端技术月刊-2025.2.md) - 2025.2.10
 - [SuperDiff：提供详细差异信息的 JS diff 工具](SuperDiff：提供详细差异信息的%20JS%20diff%20工具.md) - 2025.1.26
