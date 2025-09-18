@@ -2,6 +2,7 @@
 
 <img src="https://github.com/lecepin/blog/assets/11046969/7767859f-14b3-4e32-9d34-d21e7eae841e" width="50%" />
 
+- [AI Coding 资讯 2025-09-17.md](AI%20Coding%20资讯%202025-09-17.md) - 2025.9.17
 - [AI Coding 资讯 2025-09-10.md](AI%20Coding%20资讯%202025-09-10.md) - 2025.9.10
 - [AI Coding 资讯 2025-09-03.md](AI%20Coding%20资讯%202025-09-03.md) - 2025.9.3
 - [前端技术月刊-2025.9](前端技术月刊-2025.9.md) - 2025.9.2
